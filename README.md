@@ -5,7 +5,7 @@ Zoom does not provide an official repository for Debian/Ubuntu. This repository 
 **Step 1:** Add my GPG certificate to your keyrings folder. This does **not** automatically trust my key for anything.
 
 ```
-wget --output-document=- https://mirror.mwt.me/my/gpgkey | sudo tee /usr/share/keyrings/mwt.asc > /dev/null
+wget -qO- https://mirror.mwt.me/my/gpgkey | sudo tee /usr/share/keyrings/mwt.asc > /dev/null
 ```
 
 **Step 2:** Add this to your list of repositories. This step tells apt to use my key to check the repo.
