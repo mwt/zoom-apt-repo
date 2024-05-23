@@ -1,4 +1,4 @@
-**The url to the repository has been updated! Please re-run step 2 below to use the new paths**
+**The url to the repository has been updated! Please re-run steps 1 and 2 below to use the new paths**
 
 Zoom does not provide an official repository for Debian/Ubuntu. This repository serves the latest official `.deb` from Zoom. All files are checked against the Zoom GPG keys. The repo is automatically updated four times per day.
 
@@ -28,4 +28,4 @@ echo "deb [arch=amd64 signed-by=/etc/apt/keyrings/mwt.asc by-hash=force] https:/
 
 ## Upgrade notice
 
-This repostitory used to be at `https://mirror.mwt.me/my/deb`. For simplicity and consistancy with the other repos on `mirror.mwt.me`, I have moved the repo to `https://mirror.mwt.me/zoom/deb`. The old paths redirect to the new ones. So, the old paths should continue to work. However, use of the new paths is highly recommended. To upgrade, just rerun Step 2 above.
+This repostitory used to be at `https://mirror.mwt.me/my/deb`. For simplicity and consistancy with the other repos on `mirror.mwt.me`, I have moved the repo to `https://mirror.mwt.me/zoom/deb`. The old paths redirect to the new ones. So, the old paths should continue to work. However, use of the new paths is highly recommended. To upgrade, just rerun steps 1 and 2 above.
